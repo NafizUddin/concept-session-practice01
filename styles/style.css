@@ -138,3 +138,35 @@
 #box{
     background-image: url("../images/background.png"), linear-gradient(45deg, rgb(10, 9, 9), rgb(54, 53, 53));
 }
+
+/* Footer styles */
+.foot-container{
+    background-image: url("../images/background.png"), linear-gradient(45deg, rgb(3, 3, 3), rgb(2, 2, 2));
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.list-item{
+    list-style: none;
+}
+
+.foot-links{
+    text-decoration: none;
+}
+
+.foot-box-heading{
+    padding-bottom: 15px;
+}
+
+.foot-list{
+    padding-bottom: 15px;
+}
+
+.last-para{
+    background-image: url("../images/background.png"), linear-gradient(45deg, rgb(3, 3, 3), rgb(2, 2, 2));
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
